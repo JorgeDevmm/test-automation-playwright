@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { PracticeFormPage } from './pages/PracticeFormPage';
 
-test.describe('Formulario de Práctica - Pruebas de Automatización', () => {
+test.describe('Pregunta 1 - Formulario de Práctica - Pruebas de Automatización', () => {
   let paginaFormulario: PracticeFormPage;
 
   test.beforeEach(async ({ page }) => {
