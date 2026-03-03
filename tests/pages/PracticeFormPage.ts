@@ -69,7 +69,7 @@ export class PracticeFormPage {
   }
 
   async seleccionarGenero(genero: 'Male' | 'Female' | 'Other') {
-    // Selector más específico para evitar ambigüedad
+    // Selector más específico
     await this.page.locator(`label[for="gender-radio-${genero === 'Male' ? '1' : genero === 'Female' ? '2' : '3'}"]`).click();
   }
 
